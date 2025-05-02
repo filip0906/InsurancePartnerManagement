@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "scqFG8a+Sh6RcOTfYly6IQskNUnawVL3WNLgbbtkYDMmDJr4X13BLNP0wppsFcfR86w24VFe/L587NzHWQwUPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maric\\Desktop\\Zadatak1\\InsurancePartnerManagement\\InsurancePartnerManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maric\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\maric\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\microsoft.bcl.asyncinterfaces.9.0.1.nupkg.sha512",
+    "C:\\Users\\maric\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.4\\microsoft.entityframeworkcore.tools.9.0.4.nupkg.sha512",
+    "C:\\Users\\maric\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\maric\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\maric\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\maric\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\maric\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512",
+    "C:\\Users\\maric\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

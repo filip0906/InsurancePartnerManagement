@@ -1,0 +1,18 @@
+@model InsurancePartnerManagement.Models.Policy
+
+<h1>Dodaj novu policu</h1>
+
+<form asp-action="Create" method="post">
+    <input type="hidden" asp-for="PartnerId" />
+    <div class="form-group">
+        <label for="PolicyNumber">Broj police</label>
+        <input asp-for="PolicyNumber" class="form-control" />
+        <span asp-validation-for="PolicyNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="PolicyAmount">Iznos police</label>
+        <input asp-for="PolicyAmount" class="form-control" />
+        <span asp-validation-for="PolicyAmount" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Spremi</button>
+</form>

@@ -1,0 +1,64 @@
+@model InsurancePartnerManagement.Models.Partner
+
+<h1>Dodaj novog partnera</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="FirstName">Ime</label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="LastName">Prezime</label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Address">Adresa</label>
+        <input asp-for="Address" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="PartnerNumber">Broj partnera</label>
+        <input asp-for="PartnerNumber" class="form-control" />
+        <span asp-validation-for="PartnerNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="CroatianPIN">OIB</label>
+        <input asp-for="CroatianPIN" class="form-control" />
+        <span asp-validation-for="CroatianPIN" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="PartnerTypeId">Tip partnera</label>
+        <select asp-for="PartnerTypeId" class="form-control">
+            <option value="1">Osobni</option>
+            <option value="2">Pravni</option>
+        </select>
+        <span asp-validation-for="PartnerTypeId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="CreateByUser">Korisnik</label>
+        <input asp-for="CreateByUser" class="form-control" />
+        <span asp-validation-for="CreateByUser" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="IsForeign">Strani partner</label>
+        <input asp-for="IsForeign" type="checkbox" class="form-check-input" />
+        <span asp-validation-for="IsForeign" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="ExternalCode">Vanjski kod</label>
+        <input asp-for="ExternalCode" class="form-control" />
+        <span asp-validation-for="ExternalCode" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Gender">Spol</label>
+        <select asp-for="Gender" class="form-control">
+            <option value="M">Muški</option>
+            <option value="F">Ženski</option>
+            <option value="N">Neodređeno</option>
+        </select>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Spremi</button>
+</form>
